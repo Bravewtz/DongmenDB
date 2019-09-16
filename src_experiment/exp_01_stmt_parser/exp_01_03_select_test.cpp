@@ -7,7 +7,7 @@
 #include <gtest/gtest.h>
 #include <test/test_stmt_parser.h>
 
-//using namespace std;
+using namespace std;
 
 class Exp_01_03_SelectTest : public TestStmtParser {
 protected:
