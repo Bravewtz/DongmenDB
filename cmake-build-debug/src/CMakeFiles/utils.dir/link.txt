@@ -1,0 +1,2 @@
+D:\CLion\mingw64\bin\ar.exe qc ..\..\lib\libutilsd.a  CMakeFiles/utils.dir/utils/utils.cpp.obj
+D:\CLion\mingw64\bin\ranlib.exe ..\..\lib\libutilsd.a

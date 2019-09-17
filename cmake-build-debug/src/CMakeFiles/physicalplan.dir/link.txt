@@ -1,0 +1,2 @@
+D:\CLion\mingw64\bin\ar.exe qc ..\..\lib\libphysicalpland.a  CMakeFiles/physicalplan.dir/physicalplan/ExecutionPlan.cpp.obj CMakeFiles/physicalplan.dir/physicalplan/Join.cpp.obj CMakeFiles/physicalplan.dir/physicalplan/Project.cpp.obj CMakeFiles/physicalplan.dir/physicalplan/Scan.cpp.obj CMakeFiles/physicalplan.dir/physicalplan/Select.cpp.obj CMakeFiles/physicalplan.dir/physicalplan/TableScan.cpp.obj
+D:\CLion\mingw64\bin\ranlib.exe ..\..\lib\libphysicalpland.a

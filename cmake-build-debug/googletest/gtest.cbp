@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gtest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\googletest\;CMake Files\googletest\cmake\;CMake Files\src\;CMake Files\src_experiment\;CMake Files\src_experiment\exp_01_stmt_parser\;CMake Files\src_experiment\exp_04_security\;CMake Files\src_experiment\exp_05_algebra_opt\;CMake Files\src_experiment\exp_07_physical_operate\;CMake Files\src_test\;CMake Files\src_test\test_parser\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/CLionProject/DongmenDB/cmake-build-debug/googletest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="E:/CLionProject/DongmenDB/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProject/DongmenDB/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLionProject/DongmenDB/include"/>
+					<Add directory="E:/CLionProject/DongmenDB/googletest/include"/>
+					<Add directory="E:/CLionProject/DongmenDB/googletest"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="E:/CLionProject/DongmenDB/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProject/DongmenDB/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLionProject/DongmenDB/include"/>
+					<Add directory="E:/CLionProject/DongmenDB/googletest/include"/>
+					<Add directory="E:/CLionProject/DongmenDB/googletest"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="E:/CLionProject/DongmenDB/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProject/DongmenDB/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLionProject/DongmenDB/include"/>
+					<Add directory="E:/CLionProject/DongmenDB/googletest"/>
+					<Add directory="E:/CLionProject/DongmenDB/googletest/include"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="E:/CLionProject/DongmenDB/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProject/DongmenDB/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLionProject/DongmenDB/include"/>
+					<Add directory="E:/CLionProject/DongmenDB/googletest"/>
+					<Add directory="E:/CLionProject/DongmenDB/googletest/include"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/mingw64/bin/mingw32-make.exe -f &quot;E:/CLionProject/DongmenDB/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/CLionProject/DongmenDB/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/src_experiment/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_experiment\"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/src_experiment/exp_01_stmt_parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_experiment\exp_01_stmt_parser\"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/src_experiment/exp_04_security/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_experiment\exp_04_security\"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/src_experiment/exp_05_algebra_opt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_experiment\exp_05_algebra_opt\"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/src_experiment/exp_07_physical_operate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_experiment\exp_07_physical_operate\"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/src_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_test\"/>
+		</Unit>
+		<Unit filename="E:/CLionProject/DongmenDB/src_test/test_parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_test\test_parser\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
