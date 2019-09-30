@@ -71,8 +71,8 @@ CMakeFiles/dmdb.dir/all: src/CMakeFiles/utils.dir/all
 CMakeFiles/dmdb.dir/all: src/CMakeFiles/dongmendb.dir/all
 CMakeFiles/dmdb.dir/all: src/CMakeFiles/parser.dir/all
 CMakeFiles/dmdb.dir/all: src/CMakeFiles/test_base.dir/all
-CMakeFiles/dmdb.dir/all: src/CMakeFiles/physicalplan.dir/all
 CMakeFiles/dmdb.dir/all: src/CMakeFiles/dongmensql.dir/all
+CMakeFiles/dmdb.dir/all: src/CMakeFiles/physicalplan.dir/all
 CMakeFiles/dmdb.dir/all: src/CMakeFiles/shell.dir/all
 	$(MAKE) -f CMakeFiles\dmdb.dir\build.make CMakeFiles/dmdb.dir/depend
 	$(MAKE) -f CMakeFiles\dmdb.dir\build.make CMakeFiles/dmdb.dir/build
@@ -460,8 +460,8 @@ src/CMakeFiles/shell.dir/all: src/CMakeFiles/utils.dir/all
 src/CMakeFiles/shell.dir/all: src/CMakeFiles/dongmendb.dir/all
 src/CMakeFiles/shell.dir/all: src/CMakeFiles/parser.dir/all
 src/CMakeFiles/shell.dir/all: src/CMakeFiles/test_base.dir/all
-src/CMakeFiles/shell.dir/all: src/CMakeFiles/physicalplan.dir/all
 src/CMakeFiles/shell.dir/all: src/CMakeFiles/dongmensql.dir/all
+src/CMakeFiles/shell.dir/all: src/CMakeFiles/physicalplan.dir/all
 	$(MAKE) -f src\CMakeFiles\shell.dir\build.make src/CMakeFiles/shell.dir/depend
 	$(MAKE) -f src\CMakeFiles\shell.dir\build.make src/CMakeFiles/shell.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CLionProject\DongmenDB\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target shell"
@@ -549,14 +549,14 @@ src_experiment/exp_01_stmt_parser/preinstall:
 # Target rules for target src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir
 
 # All Build rule for target.
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: googletest/CMakeFiles/gtest_main.dir/all
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: src/CMakeFiles/utils.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: src/CMakeFiles/dongmendb.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: src/CMakeFiles/parser.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: googletest/CMakeFiles/gtest_main.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: src/CMakeFiles/test_base.dir/all
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: src/CMakeFiles/dongmensql.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/all: src/CMakeFiles/shell.dir/all
 	$(MAKE) -f src_experiment\exp_01_stmt_parser\CMakeFiles\exp_01_01_create_table_test.dir\build.make src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/depend
 	$(MAKE) -f src_experiment\exp_01_stmt_parser\CMakeFiles\exp_01_01_create_table_test.dir\build.make src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.dir/build
@@ -594,14 +594,14 @@ clean: src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_01_create_table_test.
 # Target rules for target src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir
 
 # All Build rule for target.
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: googletest/CMakeFiles/gtest_main.dir/all
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: src/CMakeFiles/utils.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: src/CMakeFiles/dongmendb.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: src/CMakeFiles/parser.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: googletest/CMakeFiles/gtest_main.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: src/CMakeFiles/test_base.dir/all
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: src/CMakeFiles/dongmensql.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/all: src/CMakeFiles/shell.dir/all
 	$(MAKE) -f src_experiment\exp_01_stmt_parser\CMakeFiles\exp_01_03_select_test.dir\build.make src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/depend
 	$(MAKE) -f src_experiment\exp_01_stmt_parser\CMakeFiles\exp_01_03_select_test.dir\build.make src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/build
@@ -639,14 +639,14 @@ clean: src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_03_select_test.dir/cl
 # Target rules for target src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir
 
 # All Build rule for target.
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: googletest/CMakeFiles/gtest_main.dir/all
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: src/CMakeFiles/utils.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: src/CMakeFiles/dongmendb.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: src/CMakeFiles/parser.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: googletest/CMakeFiles/gtest_main.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: src/CMakeFiles/test_base.dir/all
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: src/CMakeFiles/dongmensql.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/all: src/CMakeFiles/shell.dir/all
 	$(MAKE) -f src_experiment\exp_01_stmt_parser\CMakeFiles\exp_01_04_update_test.dir\build.make src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/depend
 	$(MAKE) -f src_experiment\exp_01_stmt_parser\CMakeFiles\exp_01_04_update_test.dir\build.make src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/build
@@ -684,14 +684,14 @@ clean: src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_04_update_test.dir/cl
 # Target rules for target src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir
 
 # All Build rule for target.
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: googletest/CMakeFiles/gtest_main.dir/all
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: src/CMakeFiles/utils.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: src/CMakeFiles/dongmendb.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: src/CMakeFiles/parser.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: googletest/CMakeFiles/gtest_main.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: src/CMakeFiles/test_base.dir/all
-src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: src/CMakeFiles/dongmensql.dir/all
+src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/all: src/CMakeFiles/shell.dir/all
 	$(MAKE) -f src_experiment\exp_01_stmt_parser\CMakeFiles\exp_01_05_delete_test.dir\build.make src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/depend
 	$(MAKE) -f src_experiment\exp_01_stmt_parser\CMakeFiles\exp_01_05_delete_test.dir\build.make src_experiment/exp_01_stmt_parser/CMakeFiles/exp_01_05_delete_test.dir/build
@@ -765,14 +765,14 @@ src_experiment/exp_05_algebra_opt/preinstall:
 # Target rules for target src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir
 
 # All Build rule for target.
-src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: googletest/CMakeFiles/gtest_main.dir/all
-src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: src/CMakeFiles/utils.dir/all
 src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: src/CMakeFiles/dongmendb.dir/all
 src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: src/CMakeFiles/parser.dir/all
+src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: googletest/CMakeFiles/gtest_main.dir/all
+src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: src/CMakeFiles/test_base.dir/all
-src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: src/CMakeFiles/dongmensql.dir/all
+src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/all: src/CMakeFiles/shell.dir/all
 	$(MAKE) -f src_experiment\exp_05_algebra_opt\CMakeFiles\Exp_05_02_ConditionPushdownTest.dir\build.make src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/depend
 	$(MAKE) -f src_experiment\exp_05_algebra_opt\CMakeFiles\Exp_05_02_ConditionPushdownTest.dir\build.make src_experiment/exp_05_algebra_opt/CMakeFiles/Exp_05_02_ConditionPushdownTest.dir/build
@@ -864,14 +864,14 @@ src_test/test_parser/preinstall:
 # Target rules for target src_test/test_parser/CMakeFiles/test_parser_expression.dir
 
 # All Build rule for target.
-src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: googletest/CMakeFiles/gtest_main.dir/all
-src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: src/CMakeFiles/utils.dir/all
 src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: src/CMakeFiles/dongmendb.dir/all
 src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: src/CMakeFiles/parser.dir/all
+src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: googletest/CMakeFiles/gtest_main.dir/all
+src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: googletest/CMakeFiles/gtest.dir/all
 src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: src/CMakeFiles/test_base.dir/all
-src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: src/CMakeFiles/dongmensql.dir/all
+src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: src/CMakeFiles/physicalplan.dir/all
 src_test/test_parser/CMakeFiles/test_parser_expression.dir/all: src/CMakeFiles/shell.dir/all
 	$(MAKE) -f src_test\test_parser\CMakeFiles\test_parser_expression.dir\build.make src_test/test_parser/CMakeFiles/test_parser_expression.dir/depend
 	$(MAKE) -f src_test\test_parser\CMakeFiles\test_parser_expression.dir\build.make src_test/test_parser/CMakeFiles/test_parser_expression.dir/build
