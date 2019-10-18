@@ -4,8 +4,11 @@
 # mingw参数：mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32
 
 
-CMAKE_MINIMUM_REQUIRED(VERSION 3.9)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.7)
 PROJECT(DongmenDB)
+
+# 清除 Build 时 Message 窗口显示的 Warning
+add_definitions("-w")
 
 SET(CMAKE_CXX_STANDARD 11)
 
