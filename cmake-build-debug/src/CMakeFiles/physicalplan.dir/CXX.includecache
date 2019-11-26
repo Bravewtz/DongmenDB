@@ -228,22 +228,10 @@ physicalplan/Project.h
 physicalplan/Join.h
 -
 
-E:/CLionProject/DongmenDB/src/physicalplan/Join.cpp
-string
--
-physicalplan/Join.h
--
-
 E:/CLionProject/DongmenDB/src/physicalplan/Project.cpp
 string
 -
 physicalplan/Project.h
--
-dongmensql/column.h
--
-
-E:/CLionProject/DongmenDB/src/physicalplan/Scan.cpp
-physicalplan/Scan.h
 -
 dongmensql/column.h
 -
